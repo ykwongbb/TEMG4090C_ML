@@ -60,7 +60,7 @@ data_copy[numerical_cols.columns] = imputer.fit_transform(data_copy[numerical_co
 
 # import xxx as xxx (Import Graphing Libraries)
 import dash
-import dash_core_components as dcc
+from dash import dcc
 from dash import html
 # Plotting Histogram, Boxplot & Violin Plot for all columns
 figs = []
