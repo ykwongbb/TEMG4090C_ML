@@ -349,17 +349,17 @@ fig3.show()
 
 
 gnb_acc = accuracy_score(Y_test, gnb_pred)
-gnb_prec = precision_score(Y_test, gnb_pred, average='weighted')
+gnb_prec = precision_score(Y_test, gnb_pred, average='weighted', zero_division = 1)
 gnb_rec = recall_score(Y_test, gnb_pred, average='weighted')
 gnb_f1 = f1_score(Y_test, gnb_pred, average='weighted')
 
 dt_acc = accuracy_score(Y_test, dt_pred)
-dt_prec = precision_score(Y_test, dt_pred, average='weighted')
+dt_prec = precision_score(Y_test, dt_pred, average='weighted', zero_division = 1)
 dt_rec = recall_score(Y_test, dt_pred, average='weighted')
 dt_f1 = f1_score(Y_test, dt_pred, average='weighted')
 
 rf_acc = accuracy_score(Y_test, rf_pred)
-rf_prec = precision_score(Y_test, rf_pred, average='weighted')
+rf_prec = precision_score(Y_test, rf_pred, average='weighted', zero_division = 1)
 rf_rec = recall_score(Y_test, rf_pred, average='weighted')
 rf_f1 = f1_score(Y_test, rf_pred, average='weighted')
 
