@@ -2,3 +2,15 @@
 gunicorn
 pandas
 dash-tools
+scikit-learn
+sklearn
+dash
+dash_html_components
+dash-core-components
+datetime
+imbalanced-learn
+matplotlib
+yellowbrick
+shap
+lime
+lime.lime_tabular

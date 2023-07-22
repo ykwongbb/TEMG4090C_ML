@@ -407,7 +407,6 @@ evaluation_tab = html.Div([
 
 # # Step 1. Import Graph Plotting Libraries (if any)
 import io
-import base64
 import plotly.offline as pyo
 import plotly.graph_objs as go
 import plotly.tools as tls
