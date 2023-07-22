@@ -5,6 +5,7 @@ dash-tools
 scikit-learn
 sklearn
 dash
+pybase64
 datetime
 imbalanced-learn
 matplotlib
