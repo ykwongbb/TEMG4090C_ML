@@ -406,8 +406,7 @@ evaluation_tab = html.Div([
 #@title Q6. Plot 3+ Graph that effectively explain insights that you uncovered about the trained model, comment to describe the insight that was uncovered.
 
 # # Step 1. Import Graph Plotting Libraries (if any)
-import io
-import plotly.offline as pyo
+import base64
 import plotly.graph_objs as go
 import plotly.tools as tls
 import matplotlib.pyplot as plt
