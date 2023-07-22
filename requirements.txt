@@ -5,7 +5,6 @@ dash-tools
 scikit-learn
 sklearn
 dash
-dash-core-components
 datetime
 imbalanced-learn
 matplotlib
