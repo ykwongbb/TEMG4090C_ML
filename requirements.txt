@@ -13,4 +13,3 @@ matplotlib
 yellowbrick
 shap
 lime
-lime.lime_tabular
